@@ -182,7 +182,9 @@ function isJDCoupon(title) {
     return true
   else if (title.indexOf('杂粮') > -1)
     return true
-  else if (title.indexOf('PLUS年卡会费立减券') > -1)
+  else if (title.indexOf('PLUS年卡') > -1)
+    return true
+  else if (title.indexOf('PLUS京典年卡') > -1)
     return true
   else if (title.indexOf('生鲜') > -1)
     return true
