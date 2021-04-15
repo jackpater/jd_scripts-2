@@ -15,7 +15,6 @@ Object.keys(jdCookieNode).forEach((item) => {
   cookiesArr.push(jdCookieNode[item])
 })
 if (process.env.JD_DEBUG && process.env.JD_DEBUG === 'false') console.log = () => {};
-if (JSON.stringify(process.env).indexOf('GITHUB') > -1) process.exit(0);
 main();
 async function main() {
   await help();
